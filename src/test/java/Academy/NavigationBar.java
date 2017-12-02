@@ -18,7 +18,7 @@ public class NavigationBar extends BaseTest {
 	public void initializeBrowser() throws IOException{
 	driver = driverInitializer();
 	
-	driver.get("http://qaclickacademy.com");
+	driver.get(urlName);
 	}
 	
 	@Test

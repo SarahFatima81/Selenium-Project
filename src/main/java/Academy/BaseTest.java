@@ -19,13 +19,15 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 public class BaseTest {
 	
 	public static WebDriver driver;
+	public String urlName;
 	
 	public WebDriver driverInitializer() throws IOException{
 		
 		Properties prop = new Properties();
-		FileInputStream fis = new FileInputStream("C:\\Users\\syed\\Project\\src\\main\\java\\Academy\\data.properties");
+		FileInputStream fis = new FileInputStream("C:\\Users\\syed\\git\\Project\\src\\main\\java\\Academy\\data.properties");
 		prop.load(fis);
 		String browserName = prop.getProperty("browser");
+		urlName = prop.getProperty("url");
 		System.out.println(browserName);
 		
 		

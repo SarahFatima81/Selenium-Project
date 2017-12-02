@@ -6,7 +6,7 @@
       <class name="Academy.Homepage">
         <methods>
           <include name="initializeBrowser"/>
-          <include name="HomepageNavg" invocation-numbers="1 2"/>
+          <include name="HomepageNavg"/>
         </methods>
       </class> <!-- Academy.Homepage -->
     </classes>

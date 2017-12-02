@@ -22,7 +22,7 @@ public void initializeBrowser() throws IOException{
 	
 	log.info("Driver is initialized");
 	
-	driver.get("http://qaclickacademy.com");
+	driver.get(urlName);
 	log.info("Navigated to Homepage");
 }
 	@Test

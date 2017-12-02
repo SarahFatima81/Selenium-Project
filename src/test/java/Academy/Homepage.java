@@ -26,7 +26,7 @@ public class Homepage extends BaseTest {
 	public void HomepageNavg(String username, String password){
 		
 		
-		driver.get("http://qaclickacademy.com");
+		driver.get(urlName);
 		
 		LandingPage l = new LandingPage(driver);
 		l.Login().click();

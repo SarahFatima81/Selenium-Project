@@ -1,69 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="85626" started-at="2017-12-02T00:53:07Z" finished-at="2017-12-02T00:54:32Z">
+  <suite name="Default suite" duration-ms="22951" started-at="2017-12-02T14:28:13Z" finished-at="2017-12-02T14:28:36Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="85626" started-at="2017-12-02T00:53:07Z" finished-at="2017-12-02T00:54:32Z">
-      <class name="Academy.Homepage">
-        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:Academy.Homepage@6aba2b86]" name="initializeBrowser" is-config="true" duration-ms="18148" started-at="2017-12-01T18:53:07Z" finished-at="2017-12-01T18:53:25Z">
+    <test name="Default test" duration-ms="22951" started-at="2017-12-02T14:28:13Z" finished-at="2017-12-02T14:28:36Z">
+      <class name="Academy.NavigationBar">
+        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:Academy.NavigationBar@7fa98a66]" name="initializeBrowser" is-config="true" duration-ms="22178" started-at="2017-12-02T08:28:13Z" finished-at="2017-12-02T08:28:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method status="PASS" signature="HomepageNavg(java.lang.String, java.lang.String)[pri:0, instance:Academy.Homepage@6aba2b86]" name="HomepageNavg" duration-ms="29879" started-at="2017-12-01T18:53:25Z" data-provider="getData" finished-at="2017-12-01T18:53:55Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[sefse@few.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[drw]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="validateNvBar()[pri:0, instance:Academy.NavigationBar@7fa98a66]" name="validateNvBar" duration-ms="392" started-at="2017-12-02T08:28:35Z" finished-at="2017-12-02T08:28:36Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- HomepageNavg -->
-        <test-method status="PASS" signature="HomepageNavg(java.lang.String, java.lang.String)[pri:0, instance:Academy.Homepage@6aba2b86]" name="HomepageNavg" duration-ms="18499" started-at="2017-12-01T18:53:55Z" data-provider="getData" finished-at="2017-12-01T18:54:13Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[drte@dwt.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[ewrt]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- HomepageNavg -->
-        <test-method status="PASS" signature="HomepageNavg(java.lang.String, java.lang.String)[pri:0, instance:Academy.Homepage@6aba2b86]" name="HomepageNavg" duration-ms="18609" started-at="2017-12-01T18:54:13Z" data-provider="getData" finished-at="2017-12-01T18:54:32Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[dwrw@fet.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[efwwe]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- HomepageNavg -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.Homepage@6aba2b86]" name="teardown" is-config="true" duration-ms="411" started-at="2017-12-01T18:54:32Z" finished-at="2017-12-01T18:54:32Z">
+        </test-method> <!-- validateNvBar -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.NavigationBar@7fa98a66]" name="teardown" is-config="true" duration-ms="340" started-at="2017-12-02T08:28:36Z" finished-at="2017-12-02T08:28:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- Academy.Homepage -->
+      </class> <!-- Academy.NavigationBar -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
