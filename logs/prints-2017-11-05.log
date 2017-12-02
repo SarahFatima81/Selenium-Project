@@ -1,0 +1,7 @@
+18:34:07.997 [main] INFO  Academy.BaseTest - Successfully validated login data
+18:39:33.905 [main] INFO  Academy.BaseTest - Driver is initialized
+18:39:46.969 [main] INFO  Academy.BaseTest - Navigated to Homepage
+18:39:48.617 [main] INFO  Academy.BaseTest - Closed the driver
+18:40:00.714 [main] INFO  Academy.BaseTest - Successfully validated the presence of Navigation bar
+18:40:29.103 [main] INFO  Academy.BaseTest - Successfully validated login data
+18:40:55.802 [main] INFO  Academy.BaseTest - Successfully validated login data
